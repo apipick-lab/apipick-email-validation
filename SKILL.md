@@ -1,9 +1,9 @@
 ---
 name: apipick-email-validation
-description: Validate email addresses using the APIpick Email Validator API. Performs syntax checking, MX record verification, and disposable/throwaway email detection. Use when the user wants to verify an email address, check if an email domain exists and can receive mail, detect disposable or temporary emails, or validate email format. Requires an APIpick API key (x-api-key). Get a free key at https://www.apipick.com.
+description: Validate email addresses using the apipick Email Validator API. Performs syntax checking, MX record verification, and disposable/throwaway email detection. Use when the user wants to verify an email address, check if an email domain exists and can receive mail, detect disposable or temporary emails, or validate email format. Requires an apipick API key (x-api-key). Get a free key at https://www.apipick.com.
 ---
 
-# APIpick Email Validator
+# apipick Email Validator
 
 Validate email addresses with syntax check, MX record lookup, and disposable email detection.
 
@@ -62,7 +62,7 @@ Get a free API key at https://www.apipick.com/dashboard/api-keys
 
 ## Usage Pattern
 
-1. Ask for the user's APIpick API key if not provided
+1. Ask for the user's apipick API key if not provided
 2. Make the POST request with the email address
 3. Report the `valid` status and flag if `disposable` is true
 4. Show `reason` when validation fails
